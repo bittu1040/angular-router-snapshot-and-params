@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+
+
+.selected{
+  background-color: red;
+}
+
+.notSelected{
+  background-color: lightblue;
+}

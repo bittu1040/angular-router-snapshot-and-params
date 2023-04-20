@@ -1,0 +1,9 @@
+<button
+  *ngFor="let product of products"
+  [ngClass]="product===selectedProduct ? 'selected' : 'notSelected'"
+  (click)="onSelect(product)"
+>
+  <span>{{ product.id }} {{ product.description }} </span>
+</button>
+
+<router-outlet></router-outlet>
